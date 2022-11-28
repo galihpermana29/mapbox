@@ -1,0 +1,167 @@
+.ant-btn {
+	&.ant-btn-primary {
+		&.blue {
+			background: linear-gradient(
+				135deg,
+				#16aed0 0.19%,
+				rgba(22, 174, 208, 0) 99.86%
+			);
+			border: 1px solid #39b4d3;
+			border-radius: 5px;
+
+			&:hover {
+				background: linear-gradient(
+					135deg,
+					#16aed0 0.19%,
+					rgba(22, 174, 208, 0) 99.86%
+				);
+				border: 1px solid #39b4d3;
+				border-radius: 5px;
+			}
+
+			&:active {
+				background: linear-gradient(
+					135deg,
+					#16aed0 0.19%,
+					rgba(22, 174, 208, 0) 99.86%
+				);
+				border: 1px solid #39b4d3;
+				border-radius: 5px;
+			}
+		}
+
+		&.white {
+			background: linear-gradient(
+				160.51deg,
+				rgba(230, 230, 230, 0.5) 3.79%,
+				rgba(230, 230, 230, 0) 101.31%
+			);
+			border: 1px solid #f9f9f9;
+			backdrop-filter: blur(40px);
+			border-radius: 5px;
+
+			&:hover {
+				background: linear-gradient(
+					160.51deg,
+					rgba(230, 230, 230, 0.5) 3.79%,
+					rgba(230, 230, 230, 0) 101.31%
+				);
+				border: 1px solid #f9f9f9;
+				backdrop-filter: blur(40px);
+				border-radius: 5px;
+			}
+
+			&:active {
+				background: linear-gradient(
+					160.51deg,
+					rgba(230, 230, 230, 0.5) 3.79%,
+					rgba(230, 230, 230, 0) 101.31%
+				);
+				border: 1px solid #f9f9f9;
+				backdrop-filter: blur(40px);
+				border-radius: 5px;
+			}
+		}
+
+		&.orange {
+			background: linear-gradient(
+				151.22deg,
+				rgba(254, 211, 36, 0.5) 1.38%,
+				rgba(254, 69, 145, 0.5) 100%
+			);
+			backdrop-filter: blur(40px);
+			border: none;
+			border-radius: 5px;
+
+			&:active {
+				background: linear-gradient(
+					151.22deg,
+					rgba(254, 211, 36, 0.5) 1.38%,
+					rgba(254, 69, 145, 0.5) 100%
+				);
+				backdrop-filter: blur(40px);
+				border-radius: 5px;
+			}
+
+			&:hover {
+				background: linear-gradient(
+					151.22deg,
+					rgba(254, 211, 36, 0.5) 1.38%,
+					rgba(254, 69, 145, 0.5) 100%
+				);
+				backdrop-filter: blur(40px);
+				border-radius: 5px;
+			}
+		}
+	}
+
+	&.ant-btn-ghost {
+		&.white {
+			border: 1px solid white;
+			background: transparent;
+			color: white;
+			border-radius: 5px;
+
+			&:hover {
+				border: 1px solid white;
+				background: transparent;
+				color: white;
+				border-radius: 5px;
+			}
+
+			&:active {
+				border: 1px solid white;
+				background: transparent;
+				color: white;
+				border-radius: 5px;
+			}
+		}
+
+		&.blue {
+			border: 1px solid #39b4d3;
+			background: transparent;
+			color: #39b4d3;
+			border-radius: 5px;
+
+			&:hover {
+				border: 1px solid #39b4d3;
+				background: transparent;
+				color: #39b4d3;
+				border-radius: 5px;
+			}
+
+			&:active {
+				border: 1px solid #39b4d3;
+				background: transparent;
+				color: #39b4d3;
+				border-radius: 5px;
+			}
+		}
+	}
+
+	&.ant-btn-link {
+		&.white {
+			color: white;
+
+			&:hover {
+				color: white;
+			}
+
+			&:active {
+				color: white;
+			}
+		}
+
+		&.blue {
+			color: #39b4d3;
+
+			&:hover {
+				color: #39b4d3;
+			}
+
+			&:active {
+				color: #39b4d3;
+			}
+		}
+	}
+}
